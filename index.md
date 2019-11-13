@@ -1,9 +1,5 @@
-## Welcome to my trash site
+## Welcome to my site's index page!
 
-### to keep it 400%, i just used the hackerman theme cause it looks nice.
+### Pybot
+[Pybot info page](https://themastermech.github.io/pybot)
 
-![Praise Whanos](https://themastermech.github.io/images/whanos.png)
-
-```python
-	print("Also i love python")
-```
