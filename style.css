@@ -12,45 +12,73 @@ body {
 	font-size: 11pt;
 	line-height: 1.6em;
 	font-family: "Lucida Console", Monaco, monospace;
-	background: #9ea3a3;
 	color: #adadad;
-	background: url(images/background.gif);
+	background: url("images/solidcolourbg.jpg");
 	background-size: cover;
 }
 
-p.centre {
-	text-align: center;
+.container {
+	width: 80%;
+	margin: 0 auto;
 }
 
-p.large {
-	font-size: xx-large;
+header {
+	background: #55d6aa;
 }
 
-/* Nav Bar Stuff */
-/* Add a black background color to the top navigation */
-.topnav {
-  background-color: #000000;
-  overflow: hidden;
+header::after {
+  content: '';
+  display: table;
+  clear: both;
 }
 
-/* Style the links inside the navigation bar */
-.topnav a {
+.logo {
   float: left;
-  color: #adadad;
-  text-align: center;
-  padding: 14px 16px;
+  padding: 10px 0;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 35px;
+
+  position: relative;
+}
+
+nav a {
+  color: #444;
   text-decoration: none;
-  font-size: 17px;
+  text-transform: uppercase;
+  font-size: 14px;
 }
 
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #696969;
-  color: black;
+nav a:hover {
+  color: #000;
 }
 
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #333;
-  color: white;
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
 }
