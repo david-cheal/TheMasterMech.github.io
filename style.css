@@ -1,0 +1,56 @@
+/* COLOUR SCHEME
+
+Pure Black: #000000
+Dark Grey: #696969
+Lighter Grey: #333
+Normal Grey: #adadad
+
+*/
+
+body {
+	height: 100%;
+	font-size: 11pt;
+	line-height: 1.6em;
+	font-family: "Lucida Console", Monaco, monospace;
+	background: #9ea3a3;
+	color: #adadad;
+	background: url(images/background.gif);
+	background-size: cover;
+}
+
+p.centre {
+	text-align: center;
+}
+
+p.large {
+	font-size: xx-large;
+}
+
+/* Nav Bar Stuff */
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #000000;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #adadad;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #696969;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #333;
+  color: white;
+}
