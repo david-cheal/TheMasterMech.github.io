@@ -8,91 +8,97 @@ Normal Grey: #adadad
 */
 
 body {
-	height: 100%;
-	font-size: 11pt;
-	line-height: 1.6em;
-	font-family: "Lucida Console", Monaco, monospace;
-	background: url("images/solidcolourbg.jpg");
-	background-size: cover;
-}
-
-.container {
-	width: 80%;
-	margin: 0 auto;
+    height: 100%;
+    background-color: #dba4db;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
 header {
-	background: #55d6aa;
+    background: #56d6ab;
 }
 
 header::after {
-  content: '';
-  display: table;
-  clear: both;
+    content: '';
+    display: table;
+    clear: both;
 }
 
-.logo {
-  float: left;
-  padding: 10px 0;
+p,
+a,
+h1 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    letter-spacing: 2px;
+    word-spacing: 2px;
 }
 
 nav {
-  float: right;
+    float: right;
 }
 
 nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 nav li {
-  display: inline-block;
-  margin-left: 50px;
-  padding-top: 35px;
-
-  position: relative;
+    display: inline-block;
+    margin-left: 50px;
+    padding-top: 35px;
+    position: relative;
 }
 
 nav a {
-  color: #444;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 14px;
+    color: #f2eee7;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 10px 25px 10px 25px;
 }
 
 nav a:hover {
-  color: #000;
-}
-
-nav a::before {
-  content: '';
-  display: block;
-  height: 5px;
-  background-color: #444;
-
-  position: absolute;
-  top: 0;
-  width: 0%;
-
-  transition: all ease-in-out 250ms;
+    color: #56d6ab;
+    background-color: #f2eee7;
 }
 
 nav a:hover::before {
-  width: 100%;
+    width: 100%;
 }
 
-.large {
-	font-size: xx-large;
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+    padding: 10px 0;
+}
+
+.title {
+    font-size: 3em;
+}
+
+.subtitle {
+    font-size: 1.5em;
 }
 
 .centre {
-	text-align: center;
+    text-align: center;
 }
 
 .underline {
-	text-decoration: underline;
+    text-decoration: underline;
 }
+
 
 /* Styles!!!!
 this style sheet aint impressive */
