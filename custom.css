@@ -1,0 +1,117 @@
+/* COLOUR SCHEME
+
+Pure Black: #000000
+Dark Grey: #696969
+Lighter Grey: #333
+Normal Grey: #adadad
+
+*/
+
+body {
+    height: 100vh;
+    background-color: #dba4db;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #dba4db;
+    background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%2356d6ab' fill-opacity='1' fill-rule='evenodd'%3E%3Cpath d='M0 40L40 0H20L0 20M40 40V20L20 40'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+header {
+    background: #56d6ab;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+p, a, h1 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    flex-flow: column;
+    float: right;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: #dba4db;
+}
+
+nav li {
+    display: inline-flex;
+}
+
+nav a {
+    color: #f2eee7;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1em
+}
+
+nav a:hover {
+    color: #56d6ab;
+    background-color: #f2eee7;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+h1 {
+    background-color: #dba4db;
+    padding: 1em;
+    color: #ffffff;
+}
+
+.container {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.container>img {
+    z-index: 0;
+    width: 50%;
+    image-rendering: pixelated;
+    padding: 1em;
+}
+
+.title {
+    position: absolute;
+    padding: 0;
+    font-size: 2em;
+    z-index: 1;
+}
+
+.centre {
+    text-align: center;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+
+/* Styles!!!!
+this style sheet aint impressive */
